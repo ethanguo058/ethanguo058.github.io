@@ -9,10 +9,11 @@ profile:
   image: IMG_5432.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-  <(+852) 64347736>
-  <(+86) 13611007310>
-  <Wechat: Uregrotesque>
-  <我去, 这是哪>
+    <p>(+852) 64347736</p>
+    <p>(+86) 13611007310</p>
+    <p>Wechat: Uregrotesque</p>
+    <p>我去,我是谁</p>
+
 
 
 
