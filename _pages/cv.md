@@ -2,12 +2,13 @@
 layout: about
 permalink: /lecture_note/
 title: Download
-subtitle: Download some of my lecture notes
+subtitle: Download some of my lecture notes :)
 nav: true
 nav_order: 1
 ---
-## Lecture Materials
+## Lecture Notes
+# COMP4211: Machine Learning
 
-- [COMP 4211 Bias-Variance Decomposition](assets/pdf/Bias-Variance_decomposition.pdf)
-- [COMP 4211 Linear Regression](assets/pdf/Linear_regression.pdf)
-- [COMP 4211 Logistic Regression](assets/pdf/Logistic_regression.pdf)
+- [COMP 4211 Bias-Variance Decomposition](/assets/pdf/Bias-Variance_decomposition.pdf)
+- [COMP 4211 Linear Regression](/assets/pdf/Linear_regression.pdf)
+- [COMP 4211 Logistic Regression](/assets/pdf/Logistic_regression.pdf)
