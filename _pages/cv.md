@@ -12,9 +12,9 @@ nav_order: 1
 - [Asymptotic Notation Intro](/assets/pdf/asymptotic%20notation-intro.pdf)
 - [Divide and Conquer / Binary Search / Merge Sort](/assets/pdf/Divide%20and%20Conquer-Binary%20Search-merge%20Sort.pdf)
 - [Inversion Counting / Max Subarray](/assets/pdf/inversion%20counting-max%20Subarray.pdf)
-- Multiplication / Master Theorem
-- Randomized Algorithm
-- Fast Sort / Selection 
+- [Multiplication / Master Theorem](/assets/pdf/Multiplication_Master_theorem.pdf)
+- [Randomized Algorithm](/assets/pdf/Randomized_algorithm.pdf)
+- Fast Sort / Random Selection 
 - Heap Sort
 
 ### COMP 4211
