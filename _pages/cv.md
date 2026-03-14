@@ -6,7 +6,7 @@ subtitle: Some of my lecture notes :)
 nav: true
 nav_order: 1
 ---
-Download some of my lecture notes:)
+Some of my lecture notes:)
 ### COMP 3711
 
 - [Asymptotic Notation Intro](/assets/pdf/asymptotic%20notation-intro.pdf)
