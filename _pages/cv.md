@@ -1,12 +1,12 @@
 ---
-layout: about
+layout: page
 permalink: /lecture_note/
-title: Download
+title: Notes
 subtitle: Download some of my lecture notes :)
 nav: true
 nav_order: 1
 ---
-
+Download some of my lecture notes:)
 ### COMP 3711
 
 - [Asymptotic Notation Intro](/assets/pdf/asymptotic%20notation-intro.pdf)
@@ -24,6 +24,8 @@ nav_order: 1
 - Other Approaches To Classfication
 - Bias-Variance Decompostion
 - Feed-Forward Neural Network
+- Fundamental Issues in Deep Learning
+- Convolutional Neural Network
 
 
 
