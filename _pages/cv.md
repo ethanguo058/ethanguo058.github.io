@@ -15,7 +15,7 @@ Some of my lecture notes:)
 - [Multiplication / Master Theorem](/assets/pdf/Multiplication_Master_theorem.pdf)
 - [Randomized Algorithm](/assets/pdf/Randomized_algorithm.pdf)
 - [Fast Sort / Random Selection](/assets/pdf/Quick_Sort_Random_Selection.pdf)
-- Heap Sort
+- [Heap Sort](/assets/pdf/Heap_sort.pdf)
 
 ### COMP 4211
 
