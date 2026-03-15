@@ -41,5 +41,5 @@ Some of my lecture notes:)
 - [COMP 2012 3.2](/assets/txt/3.2.txt)
 - [COMP 2012 3.4](/assets/txt/3.4.txt)
 - [COMP 2012 3.9](/assets/txt/3.9.txt)
-- [COMP 2012 3.11](assets/txt/3.11.txt)
+- [COMP 2012 3.11](/assets/txt/3.11.txt)
 
