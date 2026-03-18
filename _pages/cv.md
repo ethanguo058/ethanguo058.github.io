@@ -22,7 +22,7 @@ Some of my lecture notes:)
 
 - [Linear Regression](/assets/pdf/Linear_regression.pdf)
 - [Logistic Regression](/assets/pdf/Logistic_regression.pdf)
-- Other Approaches To Classfication
+- Other Approaches To Classfications
 - [Bias-Variance Decompostion](/assets/pdf/Bias-Variance_decomposition%20copy.pdf)
 - [Feed-Forward Neural Network](/assets/pdf/Feed-forward_Neural_Network.pdf)
 - Fundamental Issues in Deep Learning
