@@ -59,5 +59,5 @@ Some of my lecture notes:)
 
 ### MATH 2011
 
-- Vector & Curves
+- [Vector & Curves](/assets/pdf/Vector&Curves.pdf)
 - Function of Several Variables
