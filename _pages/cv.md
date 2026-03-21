@@ -48,3 +48,7 @@ Some of my lecture notes:)
 - [COMP 2012 3.18](/assets/txt/3.18.txt)
 
 
+### COMP3211
+- [COMP 3211 Lecture 3](/assets/pdf/Lecture%203.pdf)
+- [COMP 3211 Lecture 4](/assets/pdf/Lecture%204.pdf)
+
