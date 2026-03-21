@@ -17,6 +17,7 @@ Some of my lecture notes:)
 - [Quick Sort / Random Selection](/assets/pdf/Quick_Sort_Random_Selection.pdf)
 - [Heap Sort](/assets/pdf/Heap_sort.pdf)
 - Sorting in Linear Time
+- Greedy Algorithm
 
 ### COMP 4211
 
@@ -28,7 +29,7 @@ Some of my lecture notes:)
 - Fundamental Issues in Deep Learning
 - Convolutional Neural Network
 - Recurrent Neural Network
-
+- Transformer
 
 
 ### COMP 2012
@@ -49,6 +50,7 @@ Some of my lecture notes:)
 
 
 ### COMP3211
+
 - [COMP 3211 Lecture 3](/assets/pdf/Lecture%203.pdf)
 - [COMP 3211 Lecture 4](/assets/pdf/Lecture%204.pdf)
 
