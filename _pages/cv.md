@@ -26,7 +26,7 @@ Some of my lecture notes:)
 - Other Approaches To Classfications
 - [Bias-Variance Decompostion](/assets/pdf/Bias-Variance_decomposition%20copy.pdf)
 - [Feed-Forward Neural Network](/assets/pdf/Feed-forward_Neural_Network.pdf)
-- Fundamental Issues in Deep Learning
+- [Fundamental Issues in Deep Learning](/assets/pdf/FundamentalIssuesinDeepLearning.pdf)
 - Convolutional Neural Network
 - Recurrent Neural Network
 - Transformer
