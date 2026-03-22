@@ -9,7 +9,7 @@ nav_order: 1
 Some of my lecture notes:)
 ### COMP 3711
 
-- [Asymptotic Notation Intro](/assets/pdf/asymptotic%20notation-intro.pdf)
+- [Asymptotic Notation Intro](/assets/pdf/asymptotic%20notation_intro.pdf)
 - [Divide and Conquer / Binary Search / Merge Sort](/assets/pdf/Divide%20and%20Conquer_Binary%20Search_merge%20Sort.pdf)
 - [Inversion Counting / Max Subarray](/assets/pdf/inversion%20counting_max%20Subarray.pdf)
 - [Multiplication / Master Theorem](/assets/pdf/Multiplication_Master_theorem.pdf)
