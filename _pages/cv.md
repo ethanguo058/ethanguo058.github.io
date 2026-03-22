@@ -10,8 +10,8 @@ Some of my lecture notes:)
 ### COMP 3711
 
 - [Asymptotic Notation Intro](/assets/pdf/asymptotic%20notation-intro.pdf)
-- [Divide and Conquer / Binary Search / Merge Sort](/assets/pdf/Divide%20and%20Conquer-Binary%20Search-merge%20Sort.pdf)
-- [Inversion Counting / Max Subarray](/assets/pdf/inversion%20counting-max%20Subarray.pdf)
+- [Divide and Conquer / Binary Search / Merge Sort](/assets/pdf/Divide%20and%20Conquer_Binary%20Search_merge%20Sort.pdf)
+- [Inversion Counting / Max Subarray](/assets/pdf/inversion%20counting_max%20Subarray.pdf)
 - [Multiplication / Master Theorem](/assets/pdf/Multiplication_Master_theorem.pdf)
 - [Randomized Algorithm](/assets/pdf/Randomized_algorithm.pdf)
 - [Quick Sort / Random Selection](/assets/pdf/Quick_Sort_Random_Selection.pdf)
@@ -25,7 +25,7 @@ Some of my lecture notes:)
 - [Logistic Regression](/assets/pdf/Logistic_regression.pdf)
 - Other Approaches To Classfications
 - [Bias-Variance Decompostion](/assets/pdf/Bias-Variance_decomposition%20copy.pdf)
-- [Feed-Forward Neural Network](/assets/pdf/Feed-forward_Neural_Network.pdf)
+- [Feed-Forward Neural Network](/assets/pdf/Feed-forward%20Neural%20Network.pdf)
 - [Fundamental Issues in Deep Learning](/assets/pdf/FundamentalIssuesinDeepLearning.pdf)
 - Convolutional Neural Network
 - Recurrent Neural Network
