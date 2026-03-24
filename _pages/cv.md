@@ -24,7 +24,7 @@ Some of my lecture notes:)
 
 - [Linear Regression](/assets/lecture_note/COMP4211/Linear_regression.pdf)
 - [Logistic Regression](/assets/lecture_note/COMP4211/Logistic_regression.pdf)
-- Other Approaches To Classfications
+- [Other Approaches To Classfications](/assets/lecture_note/COMP4211/Other%20approaches%20to%20classification.pdf)
 - [Bias-Variance Decompostion](/assets/lecture_note/COMP4211/Bias-Variance_decomposition%20copy.pdf)
 - [Feed-Forward Neural Network](/assets/lecture_note/COMP4211/Feed-forward%20Neural%20Network.pdf)
 - [Fundamental Issues in Deep Learning](/assets/lecture_note/COMP4211/FundamentalIssuesinDeepLearning.pdf)
