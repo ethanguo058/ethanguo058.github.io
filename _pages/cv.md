@@ -6,7 +6,7 @@ subtitle: Some of my lecture notes :)
 nav: true
 nav_order: 1
 ---
-Some of my lecture notes:)
+Some of my handwritten notes:)
 ### COMP 3711
 
 - [Asymptotic Notation Intro](/assets/lecture_note/COMP3711/asymptotic%20notation_intro.pdf)
@@ -39,7 +39,7 @@ Some of my lecture notes:)
 - [COMP 2012 2.9](/assets/lecture_note/COMP2012/2.9.txt)
 - [COMP 2012 2.11](/assets/lecture_note/COMP2012/2.11.txt)
 - [COMP 2012 2.13](/assets/lecture_note/COMP2012/2.13.txt)
-- COMP 2012 2.16
+- COMP 2012 2.16 (大年三十学尼姆?)
 - [COMP 2012 2.23](/assets/lecture_note/COMP2012/2.23.txt)
 - [COMP 2012 2.25](/assets/lecture_note/COMP2012/2.25.txt)
 - [COMP 2012 3.2](/assets/lecture_note/COMP2012/3.2.txt)
