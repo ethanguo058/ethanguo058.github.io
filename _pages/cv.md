@@ -53,11 +53,11 @@ Some of my lecture notes:)
 
 ### COMP3211
 
-- COMP 3211 Lecture 2
+- [COMP 3211 Lecture 2](/assets/lecture_note/COMP3211/Lecture%202.pdf)
 - [COMP 3211 Lecture 3](/assets/lecture_note/COMP3211/Lecture%203.pdf)
 - [COMP 3211 Lecture 4](/assets/lecture_note/COMP3211/Lecture%204.pdf)
-- [COMP 3211 Lecture 5](/assets/lecture_note/COMP3211/Lecture%205.pdf)
-- COMP 3211 Lecture 6
+- [COMP 3211 Lecture 5 (Up to P.25)](/assets/lecture_note/COMP3211/Lecture%205.pdf)
+- [COMP 3211 Lecture 6 (Up to P.17)](/assets/lecture_note/COMP3211/Lecture%206.pdf)
 
 ### MATH 2011
 
