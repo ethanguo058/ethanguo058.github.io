@@ -163,20 +163,31 @@ public:
 
 class Derived : public Base {
     public:
-        Derived() { cout << "Derived’s constructor\n"; }
+        Derived() { cout << "Derived’s constructor\n";f(); }
         virtual void f() override { cout << "Derived::f()" << endl; }
 };
 
 Base* p = new Derived;
 
-Derived's constructor
 Base’s Constructor
 Base::f()   // here, though "virtual" ,constructor still call Base::f()
 
-            // Why? Derived class is not completely initialized yet!
+            // Why? Derived class is not completely initialized yet!    
+Derived's constructor
+Derived::f() // here B is constructed , then vitrual function B::f() should be called
+            //虽然对象还未完全构造，但此时：
+虚函数表（vptr）已经被设置为指向 B 类的虚函数表
+这是因为在进入 B 构造函数体之前，编译器已经完成了虚函数指针的初始化
+所以虚函数调用能够正确派发到 B::f()
+
 Remarks
 Do not rely on the virtual function mechanism during the
 execution of a constructor.
+
+
+
+
+
 
 This is not a bug, but necessary — how can the derived
 object provide services if it has not been constructed yet?
