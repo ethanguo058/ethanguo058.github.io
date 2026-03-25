@@ -178,9 +178,13 @@ public:
  // Function overloading!
 
  Word(); // Default constructor
- Word(const char* s, int k = 1); // Maybe conversion constructor
+ Word(const char* s = nullptr, int k = 1); //conversion constructor
  Word(const Word& w); // Copy constructor
  }
+
+Word w1; // Error! since Complier cannot tell which consturctor is used (conversion or default)
+
+
 
 Operator overloading -> Later chapter
 
