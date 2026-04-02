@@ -21,6 +21,7 @@ Some of my handwritten notes:)
 - Huffman Coding
 - Dynamic Programming
 
+
 ### COMP 4211
 
 - [Linear Regression](/assets/lecture_note/COMP4211/Linear_regression.pdf)
@@ -49,8 +50,8 @@ Some of my handwritten notes:)
 - [COMP 2012 3.11](/assets/lecture_note/COMP2012/3.11.txt)
 - [COMP 2012 3.16](/assets/lecture_note/COMP2012/3.16.txt)
 - [COMP 2012 3.18](/assets/lecture_note/COMP2012/3.18.txt)
-- COMP 2012 3.23
-- COMP 2012 3.25
+- [COMP 2012 3.23](/assets/lecture_note/COMP2012/3.23.txt)
+- [COMP 2012 3.25]((/assets/lecture_note/COMP2012/3.25.txt))
 - COMP 2012 3.30
 - COMP 2012 4.1
 
@@ -60,8 +61,8 @@ Some of my handwritten notes:)
 - [COMP 3211 Lecture 2](/assets/lecture_note/COMP3211/Lecture%202.pdf)
 - [COMP 3211 Lecture 3](/assets/lecture_note/COMP3211/Lecture%203.pdf)
 - [COMP 3211 Lecture 4](/assets/lecture_note/COMP3211/Lecture%204.pdf)
-- [COMP 3211 Lecture 5 (Up to P.25)](/assets/lecture_note/COMP3211/Lecture%205.pdf)
-- [COMP 3211 Lecture 6 (Up to P.17)](/assets/lecture_note/COMP3211/Lecture%206.pdf)
+- COMP 3211 Lecture 5
+- COMP 3211 Lecture 6
 
 ### MATH 2011
 
