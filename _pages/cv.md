@@ -18,7 +18,7 @@ Some of my handwritten notes:)
 - [Heap Sort](/assets/lecture_note/COMP3711/Heap_sort.pdf)
 - [Sorting in Linear Time](/assets/lecture_note/COMP3711/Linear%20sort.pdf)
 - [Greedy Algorithm](/assets/lecture_note/COMP3711/Greedy-Algorithm.pdf)
-- Huffman EnCoding
+- Huffman Encoding
 - Dynamic Programming(1D/2D)
 
 
@@ -61,7 +61,7 @@ Some of my handwritten notes:)
 - [COMP 3211 Lecture 2](/assets/lecture_note/COMP3211/Lecture%202.pdf)
 - [COMP 3211 Lecture 3](/assets/lecture_note/COMP3211/Lecture%203.pdf)
 - [COMP 3211 Lecture 4](/assets/lecture_note/COMP3211/Lecture%204.pdf)
-- COMP 3211 Lecture 5
+- [COMP 3211 Lecture 5](/assets/lecture_note/COMP3211/Lecture%205.pdf)
 - COMP 3211 Lecture 6
 
 ### MATH 2011
