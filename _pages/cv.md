@@ -18,7 +18,7 @@ Some of my handwritten notes:)
 - [Heap Sort](/assets/lecture_note/COMP3711/Heap_sort.pdf)
 - [Sorting in Linear Time](/assets/lecture_note/COMP3711/Linear%20sort.pdf)
 - [Greedy Algorithm](/assets/lecture_note/COMP3711/Greedy-Algorithm.pdf)
-- Huffman Encoding
+- [Huffman Encoding](/assets/lecture_note/COMP3711/Huffman%20Encoding.pdf)
 - Dynamic Programming(1D/2D)
 
 
@@ -51,7 +51,7 @@ Some of my handwritten notes:)
 - [COMP 2012 3.16](/assets/lecture_note/COMP2012/3.16.txt)
 - [COMP 2012 3.18](/assets/lecture_note/COMP2012/3.18.txt)
 - [COMP 2012 3.23](/assets/lecture_note/COMP2012/3.23.txt)
-- [COMP 2012 3.25]((/assets/lecture_note/COMP2012/3.25.txt))
+- [COMP 2012 3.25](/assets/lecture_note/COMP2012/3.25.txt)
 - COMP 2012 3.30
 - COMP 2012 4.1
 
@@ -63,8 +63,9 @@ Some of my handwritten notes:)
 - [COMP 3211 Lecture 4](/assets/lecture_note/COMP3211/Lecture%204.pdf)
 - [COMP 3211 Lecture 5](/assets/lecture_note/COMP3211/Lecture%205.pdf)
 - COMP 3211 Lecture 6
+- COMP 3211 Lecture 7
 
 ### MATH 2011
 
 - [Vector & Curves](/assets/lecture_note/MATH2011/Vector&Curves.pdf)
-- Function of Several Variables
+- Function of Several Variablesi
