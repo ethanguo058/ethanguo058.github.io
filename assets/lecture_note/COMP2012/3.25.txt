@@ -1,7 +1,8 @@
 3.25
 Content:
-1. Issues on template (Issues on RBR)
-2. Reference to an array
+1. Issues on template (Issues on Return by Reference)
+2. Class template
+3. Reference to an array
 
 
 
@@ -9,11 +10,13 @@ Content:
 template <typename T1, typename T2> inline const T1& 
     larger(const T1& a , const T2 &b) { return (a < b) ? b : a ;}
 
-(1) What if we return a T2 ref? (i.e. b > a)
+(1) 
+
+What if we return a T2 ref? (i.e. b > a)
 
 first, a temporary obj will generated , which is converted from T2 to T1
 then the temporary obj will be returned by reference
---> Warning! we're returning a Temporary object by reference!
+--> Warning! (Not an error),  we're returning a Temporary object by reference!
 
 similiarly to:
 
@@ -23,16 +26,35 @@ const int& fun(double& b){
 
 1. b --convert--> temporary int obj
 2. return the temporary int obj by reference 
---> Warning! return temporary object by reference)
+--> Warning! Returning temporary object by reference
 
 Solution:
 1. Return by value
 2. Do not return anything
 
-  
-(2) What if we're calling larger( a , b ), where a,b are User-defined class object?
+double a = 0.5;
+int& b = a; // Error! Not same type! 
+
+
+
+(2)
+
+What if we're calling larger( a , b ), where a,b are User-defined class object?
 
 Error! if we don't implement operator overloading
+
+
+
+(3) 
+
+short s = 1; char c = ’A’;
+int i = 1023; double d = 3.1415;
+print_larger(s, s); print_larger(s, c);
+print_larger(c, s); print_larger(s, i);
+// ... And all other combinations; 16 in total.
+
+With the current compiler technology, this means that we get 16 (almost identical) fragments of code in the executable
+program. There is NO sharing of code.
 
 
 
@@ -46,6 +68,7 @@ create(); // What type ? How to initialize/delete?
 
 create<int>() // Okay! manually set argument type
 }
+
 
 
 Class Template:
@@ -100,17 +123,86 @@ Pass by reference w/ Template
 template< typename T, int N>
 int f(T (&x) [N]){};
 
-f(arr); // Okay! T : int , N : 9 (this is interpreted by Complier)
+f(arr); // Okay! T : int , N : 9 
+( T and N are automatically interpreted by Complier ! )
 
 f(arr2); // Okay! T : int , N : 3
 
  
 Remarks:
 
-for class template , we MUST specify the Actual type of template argument when initialization!
+For class template , we MUST specify the Actual type of template argument when initialization!
+
+
+Difference Between Class and Function Templates:
+
+For function templates, the compiler may deduce the templatearguments from the function call.
+
+int i = larger(4, 5); // Rely on compilers to deduce larger<int>
+int j = larger<int>(7, 2); // Explicit instantiation
+
+For class templates, you always have to specify the actualtemplate arguments when creating the class objects;
+The compiler does not deduce the template arguments.
+
+List primes; // Error! how can compilers deduce the type?
+primes.append(2); // Error! too late; compilers can’t lookahead!
+
+
 
 
 Seperate Compilation for template:
+
+review: Seperate Compilation for non-template program:
+    declaration -> header file (e.g. apple.h)
+    implementation(definition) -> cpp file (e.g. apple.cpp)
+
+
+Since: a function / class template is initialized only when it is used!
+
+-> We must put the template function/class definitions in the
+header file as well and include the template header file in
+every files which use the template
+
+e.g.
+
+WRONG:
+
+// utils.h 
+template <typename T>
+T add(T a, T b);
+
+// utils.cpp 
+#include "utils.h"
+template <typename T>
+T add(T a, T b) {
+    return a + b;
+}
+
+#include "utils.h"
+int main() {
+    int x = add(3, 5);     // ERROR!
+    double y = add(3.14, 2.5);  // ERROR!
+}
+
+Why?  main.cpp ---include---> utils.h
+
+compiler does not have function definition when initializing at utils.h!
+
+
+// utils.h 
+#pragma once
+template <typename T>
+T add(T a, T b) {
+    return a + b;  // Definition directly in header file
+}
+
+// main.cpp 
+#include "utils.h" // include header file
+int main() {
+    int x = add(3, 5);        // Okay
+    double y = add(3.14, 2.5);  // Okay
+}
+
 
 A function/class template is instantiated only when it is
 used, and its definition must be in the same file which calls it.
@@ -123,3 +215,18 @@ Remarks:
 if (0) --> Always false
 
 if (a = 0) --> Also Always false
+
+
+
+PBV in Polymorphism --> Slicing
+
+class D : public B
+
+void pbv(B& b){};
+
+D obj;
+
+pbv(obj); --> create temporary obj : B(const B&)
+
+
+

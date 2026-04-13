@@ -1,0 +1,152 @@
+3.30
+Content:
+1. Operator Overloading
+(1) Coersion
+(2) Member operator / Global Non-member operator
+(3) Syntactic sugar
+(4) ostream/instream
+
+
+
+Remark:
+
+template<> void fun(const int&)
+template<typename T> void( const T& ) ... // Error! cannot write specialization first
+
+
+Operator Overloading:
+
+cout <<  --> insertion (output) operator
+
+1 + 1 --> add operator
+
+1 < 2 --> comparison operator
+
+class Vector{ ... }
+
+if: Vector a,b;
+
+cout << a + b <<endl; // Error! there is no addition operator for class Vector
+
+-->  class Vector{ 
+    public: 
+        Vector operator+ (const Vector& other) const{ }; 
+}
+
+a.operator+(b) or a + b
+
+
+Coersion:
+
+int a = 2 ; double b= 0.5;
+
+a + b --> a : int --> double | result : double
+
+
+Remark:
+
+Vector(double a = 0 , double b = 0): x(a), y(b) {}
+...
+Vector(10); // Now a = 10 ; b = 0 by default
+
+
+Vector a;
+
+a + 10; // 10 -> Vector(10) -> a + temp_obj (Coersion!)
+
+
+10 + a; // Error! since there is no + operator for int and obj Vector!
+
+
+in "a + 10" , compiler call Vector operator+(const Vector& other){}
+
+in "10 + a" , compiler call 10.operator+(a) --> It does not exist!
+
+--> Class object must be the Left Operand!
+--> Here, the addition is not communicative
+
+
+
+Global Non-member Operator+ function:
+
+Vector operator+(const Vector& a, const Vector& b)
+    { return Vector(a.getx() + b.getx(), a.gety() + b.gety()); }
+
+Now : 10 + a and a + 10 are both fine!  
+
+syntactic sugar:
+
+Originally we must write a.operator+(b) or operator+(a,b) for addition
+
+-> We can write a + b -> syntactic sugar
+
+
+
+Almost all operators in C++ can be overloaded except:
+.   ::  ?:  .*      (reason)
+The C++ parser is fixed. That means that you can only
+re-define existing operators, and you cannot define new
+operators (using new symbols).
+
+
+Nor can you change the following properties of an operator:
+
+1. Arity: the number of arguments an operator takes.
+e.g., !x x+y a%b s[j]
+(So you are not allowed to re-define the + operator to take 3
+arguments instead of 2.)
+
+2. Associativity: e.g. a+b+c is always identical to (a+b)+c.
+
+3. Precedence: which operator is done first?
+e.g., a+b*c is treated as a+(b*c).
+
+Remarks:
+
+Every operator function you define must implicitly
+have at least one argument of a user-defined class type.
+
+
+"<<" : insertion ( output ) operator
+
+ostream& operator<<(ostream& os){
+    os << x << endl;
+    return os;
+}
+
+ostream : output stream class --> "cout" "cerr" ... are all "ostream“ class object
+
+Remark: ostream( output stream ) must be passed by reference! and has to be returned by reference!
+
+Problem: if we write operator<< in this way, then:
+
+cout << x; // Error! 
+
+--> actually x << cout 
+
+We need to write "<<" as a Global non-member function!
+
+ostream& operator<< (ostream& os , Vector& v) {
+    os << v.getX() << endl;
+}
+
+
+
+input operator >>
+
+instream& operator>> (instream& os, Vector& a){
+    int x
+    os >> x;
+    a.setX(x);
+    return is;
+}
+
+operator +=
+
+if RBR : Vector& operator+=(const Vector& other){}
+then:
+    (a+=b)+=b // Okay a.x = a.x+b.x+b.x
+
+if RBCR: const Vector& operator+=(const Vector& other){}
+then:
+    (a+=b)+=b // ERROR
