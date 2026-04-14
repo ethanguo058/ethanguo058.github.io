@@ -60,12 +60,12 @@ Some of my handwritten notes:)
 
 ### COMP3211
 
-- [COMP 3211 Lecture 2](/assets/lecture_note/COMP3211/Lecture%202.pdf)
-- [COMP 3211 Lecture 3](/assets/lecture_note/COMP3211/Lecture%203.pdf)
-- [COMP 3211 Lecture 4](/assets/lecture_note/COMP3211/Lecture%204.pdf)
-- [COMP 3211 Lecture 5](/assets/lecture_note/COMP3211/Lecture%205.pdf)
-- COMP 3211 Lecture 6
-- COMP 3211 Lecture 7
+- [COMP 3211 Lecture 2: Reactive Agents](/assets/lecture_note/COMP3211/Lecture%202.pdf)
+- [COMP 3211 Lecture 3: Search](/assets/lecture_note/COMP3211/Lecture%203.pdf)
+- [COMP 3211 Lecture 4: Constraint Satisfaction Problem](/assets/lecture_note/COMP3211/Lecture%204.pdf)
+- [COMP 3211 Lecture 5: Game Tree Search](/assets/lecture_note/COMP3211/Lecture%205.pdf)
+- COMP 3211 Lecture 6: MDP and Reinforcement Learning
+- COMP 3211 Lecture 7: Game Theory
 
 ### MATH 2011
 
