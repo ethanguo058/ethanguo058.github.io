@@ -1,0 +1,38 @@
+4.15
+Content:
+
+
+
+Remark:
+
+auto f = [](int x,int y){return x+y} // Okay
+
+double (*g)(int,int) = [](int x, int y){return x+y} // Error! since the lambda expression returns a "int"
+
+int (*g)(int,int) = [](int x, int y){return x+y} // Okay
+
+
+
+
+
+Function pointer
+
+int larger(int a, int b){
+    ...
+}
+
+int smaller(int a, int b){
+    ...
+}
+
+int main(){
+    int choice;
+    cin >> choice;
+    int (*f) (int , int) = (choice == 1) ? smaller : larger
+    cout << (*f)(3,5) <<endl; // here, we can also write f(3,5) since function name itself is basically a pointer!
+}
+
+--> fun1(int a, int b) { return a+b }
+cout<< reinterpret_cast<void*>(fun1) << endl; // output : address of fun1 ( the name itself is a pointer! )
+
+
