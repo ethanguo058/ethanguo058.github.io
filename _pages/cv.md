@@ -21,7 +21,7 @@ Some of my handwritten notes:)
 - [Huffman Encoding](/assets/lecture_note/COMP3711/Huffman%20Encoding.pdf)
 - [Dynamic Programming(1D)](/assets/lecture_note/COMP3711/Dynamic%20Programming.pdf)
 - Dynamic Programming(2D/interval)
-- Graph
+- Graph Intro
 
 
 ### COMP 4211
@@ -64,7 +64,7 @@ Some of my handwritten notes:)
 - [COMP 2012 4.13](/assets/lecture_note/COMP2012/4.13.txt)
 - COMP 2012 4.15
 - [COMP 2012 4.20](/assets/lecture_note/COMP2012/4.20.txt)
-- COMP 2012 4.22
+
 
 
 
@@ -77,9 +77,12 @@ Some of my handwritten notes:)
 - COMP 3211 Lecture 6: MDP and Reinforcement Learning
 - COMP 3211 Lecture 7: Game Theory
 - COMP 3211 Lecture 8: Auction
+- COMP 3211 Lecture 9: Knowledge Representation and Reasoning
+ 
 
 ### MATH 2011
 
 - [Vector & Curves](/assets/lecture_note/MATH2011/Vector&Curves.pdf)
 - [Function of Several Variables](/assets/lecture_note/MATH2011/Functions%20of%20several%20variables.pdf)
 - Multiple integration
+- Vector Calculus
