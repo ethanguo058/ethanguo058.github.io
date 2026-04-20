@@ -33,8 +33,8 @@ Some of my handwritten notes:)
 - [Feed-Forward Neural Network](/assets/lecture_note/COMP4211/Feed-forward%20Neural%20Network.pdf)
 - [Fundamental Issues in Deep Learning](/assets/lecture_note/COMP4211/FundamentalIssuesinDeepLearning.pdf)
 - Convolutional Neural Network
-- Recurrent Neural Network
-- Transformer
+- [Recurrent Neural Network](/assets/lecture_note/COMP4211/Recurrent%20Neural%20Network.pdf)
+- Transformer Models
 - ViT / Clip
 - Variational Autoencoders
 - Generative Adversarial Networks
