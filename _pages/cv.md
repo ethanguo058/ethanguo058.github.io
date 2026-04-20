@@ -70,6 +70,7 @@ Some of my handwritten notes:)
 - [COMP 3211 Lecture 5: Game Tree Search](/assets/lecture_note/COMP3211/Lecture%205.pdf)
 - COMP 3211 Lecture 6: MDP and Reinforcement Learning
 - COMP 3211 Lecture 7: Game Theory
+- COMP 3211 Lecture 7: Auction
 
 ### MATH 2011
 
