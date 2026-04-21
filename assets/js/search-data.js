@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Mynotes/";
+            window.location.href = "/mynotes/";
           },
         },{id: "post-a-post-with-plotly-js",
         
