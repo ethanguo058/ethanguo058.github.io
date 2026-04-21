@@ -21,7 +21,10 @@ Some of my handwritten notes:)
 - [Huffman Encoding](/assets/lecture_note/COMP3711/Huffman%20Encoding.pdf)
 - [Dynamic Programming(1D)](/assets/lecture_note/COMP3711/Dynamic%20Programming.pdf)
 - Dynamic Programming(2D/interval)
-- Graph Intro
+- Graph Intro / BSF / DFS
+- Minimum Spanning Tree
+- Shortest Path
+- Maximum Flow
 
 
 ### COMP 4211
@@ -64,6 +67,11 @@ Some of my handwritten notes:)
 - [COMP 2012 4.13](/assets/lecture_note/COMP2012/4.13.txt)
 - COMP 2012 4.15
 - [COMP 2012 4.20](/assets/lecture_note/COMP2012/4.20.txt)
+- COMP 2012 4.22
+- COMP 2012 4.27
+- COMP 2012 4.29
+- COMP 2012 5.4
+- COMP 2012 5.6
 
 
 
