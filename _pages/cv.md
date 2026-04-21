@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Mynotes/
+permalink: /mynotes/
 title: Notes
 subtitle: Some of my lecture notes :)
 nav: true
