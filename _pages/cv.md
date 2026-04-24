@@ -19,7 +19,7 @@ Some of my handwritten notes:)
 - [Sorting in Linear Time](/assets/lecture_note/COMP3711/Linear%20sort.pdf)
 - [Greedy Algorithm](/assets/lecture_note/COMP3711/Greedy-Algorithm.pdf)
 - [Huffman Encoding](/assets/lecture_note/COMP3711/Huffman%20Encoding.pdf)
-- [Dynamic Programming](/assets/lecture_note/COMP3711/Dynamic%20Programming.pdf)
+- Dynamic Programming
 - Graph Intro / BSF / DFS
 - Minimum Spanning Tree
 - Shortest Path
@@ -91,5 +91,5 @@ Some of my handwritten notes:)
 
 - [Vector & Curves](/assets/lecture_note/MATH2011/Vector&Curves.pdf)
 - [Function of Several Variables](/assets/lecture_note/MATH2011/Functions%20of%20several%20variables.pdf)
-- [Multiple integration](assets/lecture_note/MATH2011/Multiple%20integration.pdf)
+- [Multiple integration](/assets/lecture_note/MATH2011/Multiple%20integration.pdf)
 - Vector Calculus
