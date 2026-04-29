@@ -50,7 +50,7 @@ Some of my handwritten notes:)
 - [COMP 2012 2.9](/assets/lecture_note/COMP2012/2.9.txt)
 - [COMP 2012 2.11](/assets/lecture_note/COMP2012/2.11.txt)
 - [COMP 2012 2.13](/assets/lecture_note/COMP2012/2.13.txt)
-- [COMP 2012 2.16]((/assets/lecture_note/COMP2012/2.16.txt))
+- [COMP 2012 2.16](/assets/lecture_note/COMP2012/2.16.txt)
 - [COMP 2012 2.23](/assets/lecture_note/COMP2012/2.23.txt)
 - [COMP 2012 2.25](/assets/lecture_note/COMP2012/2.25.txt)
 - [COMP 2012 3.2](/assets/lecture_note/COMP2012/3.2.txt)
@@ -66,8 +66,8 @@ Some of my handwritten notes:)
 - [COMP 2012 4.13](/assets/lecture_note/COMP2012/4.13.txt)
 - COMP 2012 4.15
 - [COMP 2012 4.20](/assets/lecture_note/COMP2012/4.20.txt)
-- COMP 2012 4.22
-- COMP 2012 4.27
+- [COMP 2012 4.22](/assets/lecture_note/COMP2012/4.22.txt)
+- [COMP 2012 4.27](/assets/lecture_note/COMP2012/4.27.txt)
 - COMP 2012 4.29
 - COMP 2012 5.4
 - COMP 2012 5.6
