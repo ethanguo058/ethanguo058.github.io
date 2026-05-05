@@ -1,0 +1,145 @@
+5.4
+Content:
+1. Rvalue Reference Example
+
+Remark:
+int&& rref = 10;
+int & ref = rref; // Okay
+int&& another_rref = rref; // Error! rvalue reference itself is treated as a lvalue
+
+
+
+X b (X{}) // X{} create a temporary object
+          // Copy construct X object
+// Output:
+default constructor X()
+copy constructor X(const X&)
+desturctor ~X()
+
+const X& xref = X(10); // const ref prolong temporary object's lifetime
+cout<< "after ref" << endl;
+// Output:
+default constructor
+after ref
+desturctor // Being desturct at the end of main!
+
+
+X&& xrref = X(10): // rvalue ref prolong temporary object's lifetime
+cout<< "after ref" << endl;
+// Output:
+default constructor
+after ref
+desturctor // Being desturct at the end of main!
+
+
+
+X&& xrref3 = A; // NO
+const X& xcref = A; // OK
+const X&& xcrref = A; // NO
+
+
+pass-by-rvalue reference
+
+void funX(X&& obj) {cout <<"funX(X&&)"<<endl;}
+
+X obj(100);
+funX(obj) // Error!
+funX(X(100))// Okay,the function only accept temporary object
+
+
+void print_word(const Word& w) { 
+    cout << "print const Word&: "; 
+    w.print(); 
+}
+
+void print_word(Word&& w) { 
+    cout << "print Word&&: "; 
+    w.print(); 
+}
+
+int main()
+{
+    /* Use const Word& to hold a temporary Word object */
+    Word song("imagine");
+
+    // conversion: imagine ; 1
+
+    const Word& w1 = song.to_upper_case();
+
+    // to_upper_case
+    // copy: imagine ; 2
+    // copy: IMAGINE ; 3
+    // desturctor: imagine; 2
+
+    cout << endl;
+    song.print(); 
+
+    // imagine ; 1
+
+    w1.print(); 
+
+    // IMAGINE ; 3
+
+    cout << "\n**********" << endl;
+
+    /* Use Word&& to hold a temporary Word object */
+    Word movie("batman", 2);
+
+    // conversion: batman; 2
+
+    Word&& w2 = movie.to_upper_case(); 
+
+    // copy: batman; 3
+    // copy: BATMAN; 4
+    // desturctor: BATMAN; 3
+
+    cout << endl;
+    movie.print(); 
+
+    // batman; 2
+
+    w2.print(); 
+
+    // BATMAN; 4
+
+    cout << endl;
+
+    print_word(song); 
+    // print const Word&: imagine ; 1
+
+    print_word(movie);
+    //print const Word&: batman ; 2
+
+    print_word(w1); 
+    // print const Word&: IMAGINE ; 3
+
+    print_word(w2);
+    //print const Word&: BATMAN ; 4
+
+    /* Directly pass a temporary Word object to a function */
+    print_word(movie.to_upper_case()); 
+    // copy: batman; 3
+    // copy: BATMAN; 4
+    // desturctor: BATMAN; 3
+    // print_word&& : BATMAN; 4
+    // desturctor; BATMAN;4
+
+    cout << endl;
+    print_word("Beatles"); 
+
+    // conversion: Beatles ;1
+    // print_word&&: Beatles ;1
+    // desturctor: Beatles ; 1
+
+    cout << "\n**********" << endl; 
+    
+    return 0;
+}
+
+
+
+Move constructor:
+
+"steal" temporary object's resources
+
+
