@@ -22,7 +22,7 @@ Some of my handwritten notes:)
 - [Dynamic Programming](/assets/lecture_note/COMP3711/Dynamic%20Programming.pdf)
 - [Graph Intro / BSF / DFS / Topological Sort](/assets/lecture_note/COMP3711/GraphIntro_BFS_DFS_TopoSort.pdf)
 - [Minimum Spanning Tree](/assets/lecture_note/COMP3711/Minimum%20Spanning%20Tree.pdf)
-- [Shortest Path](/assets/lecture_note/COMP3711/Shortest Path.pdf)
+- [Shortest Path](/assets/lecture_note/COMP3711/Shortest%20Path.pdf)
 
 
 ### COMP 4211
