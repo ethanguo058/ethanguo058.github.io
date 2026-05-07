@@ -6,7 +6,7 @@ subtitle: Some of my lecture notes :)
 nav: true
 nav_order: 1
 ---
-Some of my handwritten notes:)
+Some of my handwritten notes :)
 ### COMP 3711
 
 - [Asymptotic Notation Intro](/assets/lecture_note/COMP3711/asymptotic%20notation_intro.pdf)
@@ -84,7 +84,7 @@ Some of my handwritten notes:)
 - [COMP 3211 Lecture 7: Game Theory](/assets/lecture_note/COMP3211/Lecture%207.pdf)
 - [COMP 3211 Lecture 8: Auctions](/assets/lecture_note/COMP3211/Lecture%208.pdf)
 - COMP 3211 Lecture 9: Knowledge Representation and Reasoning
-- COMP 3211 Lecture 10: Reasoning under Uncertainty
+
  
 
 ### MATH 2011
