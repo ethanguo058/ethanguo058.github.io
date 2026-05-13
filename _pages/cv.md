@@ -93,4 +93,4 @@ Some of my handwritten notes :)
 - [Vector & Curves](/assets/lecture_note/MATH2011/Vector&Curves.pdf)
 - [Function of Several Variables](/assets/lecture_note/MATH2011/Functions%20of%20several%20variables.pdf)
 - [Multiple integration](/assets/lecture_note/MATH2011/Multiple%20integration.pdf)
-- Vector Calculus
+- [Vector Calculus](/assets/lecture_note/MATH2011/Vector%20Field.pdf)
