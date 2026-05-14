@@ -39,8 +39,8 @@ Some of my handwritten notes :)
 - [Vision Transformer / CLIP](/assets/lecture_note/COMP4211/ViT_CLIP.pdf)
 - Variational Autoencoders
 - Generative Adversarial Networks
-- Support Vector Machines
-- Decision Trees and Random Forests
+- [Support Vector Machines](/assets/lecture_note/COMP4211/SVM.pdf)
+- [Decision Trees and Random Forests]
 
 
 ### COMP 2012
